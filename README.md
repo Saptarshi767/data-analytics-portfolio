@@ -5,42 +5,46 @@
 
 <h1 align="center">🚀 Data Analytics Portfolio</h1>
 <p align="center">
-  <b>By [Your Name] — Data Analyst | Python | Power BI | Automation</b>
+  <b>By Saptarshi Mahapatra — Data Analyst | Python | Power BI | Automation</b>
 </p>
 
 <p align="center">
-  <a href="#projects"><img src="https://img.shields.io/badge/Projects-6+-blueviolet?style=for-the-badge"/></a>
+  <a href="#projects"><img src="https://img.shields.io/badge/Projects-12+-blueviolet?style=for-the-badge"/></a>
   <a href="#skills"><img src="https://img.shields.io/badge/Skills-Python%2C%20Power%20BI%2C%20Automation%2C%20EDA-orange?style=for-the-badge"/></a>
   <a href="#datasets"><img src="https://img.shields.io/badge/Datasets-4-green?style=for-the-badge"/></a>
+  <a href="https://github.com/Saptarshi767"><img src="https://img.shields.io/badge/GitHub-Saptarshi767-black?style=for-the-badge&logo=github"/></a>
+  <a href="https://www.linkedin.com/in/saptarshi-mahapatra-4a1108268"><img src="https://img.shields.io/badge/LinkedIn-saptarshi--mahapatra-blue?style=for-the-badge&logo=linkedin"/></a>
 </p>
 
 ---
 
 ## 🌟 Overview
 
-Welcome to my Data Analytics Portfolio! This repository showcases my expertise in data analysis, automation, and dashboarding using Python and Power BI. Here, you'll find:
+Welcome to my Data Analytics Portfolio! This repository showcases my expertise in data analysis, automation, web scraping, and dashboarding using Python and Power BI. Here, you'll find:
 - Automated data collection scripts
 - Interactive dashboards
 - Real-world business datasets
 - End-to-end analytics workflows
+- Advanced web scraping projects
 
 ---
 
 ## 🧑‍💻 About Me
 
-Hi! I'm **[Your Name]**, a passionate data analyst skilled in:
+Hi! I'm **Saptarshi Mahapatra**, a passionate data analyst skilled in:
 - Python scripting & automation
 - Data wrangling & cleaning
 - Power BI dashboarding
+- Web scraping & data extraction
 - Business insights & storytelling
 
-> **Let's connect!** [LinkedIn](#) | [Email](#)
+> **Let's connect!** [LinkedIn](https://www.linkedin.com/in/saptarshi-mahapatra-4a1108268) | [GitHub](https://github.com/Saptarshi767)
 
 ---
 
 ## 📁 Projects & Dashboards
 
-### 1. **Automated Data Collection Scripts**
+### 1. **Automated Data Collection & Web Scraping Scripts**
 
 #### `main all india.py` & `main all india2.py`
 - **Purpose:** Automate downloading and aggregating daily Excel reports from the Merit India portal for all India.
@@ -57,6 +61,44 @@ Hi! I'm **[Your Name]**, a passionate data analyst skilled in:
   - Handles state-specific data
   - Robust error handling and automation
   - Saves clean, ready-to-analyze datasets
+
+#### **About the Web Scraping Approach**
+- **Requests-based scraping:** For simple downloads, scripts use the `requests` library to fetch data directly from APIs or download links, then process with `pandas`.
+- **Selenium-based scraping:** For dynamic or protected sites, Selenium automates browser actions (clicks, downloads, waits for files) to extract data that can't be accessed via direct requests.
+- **Data cleaning:** All scripts include steps to clean, merge, and save data in analysis-ready formats.
+- **Automation:** Scripts are designed for batch processing, error handling, and can be scheduled for regular data updates.
+
+#### **Additional Web Scraping Projects**
+
+##### 1. **Amazon Product Price Tracker**
+- Scrapes product prices, ratings, and availability from Amazon for selected items.
+- Sends daily email alerts when prices drop below a threshold.
+- Tech: Python, BeautifulSoup, requests, smtplib.
+
+##### 2. **Real Estate Listings Scraper**
+- Extracts property details (price, location, features) from popular real estate websites.
+- Aggregates data for market trend analysis and visualization.
+- Tech: Python, Selenium, pandas.
+
+##### 3. **News Sentiment Analyzer**
+- Scrapes latest news headlines and articles from multiple news portals.
+- Performs sentiment analysis to track public mood on key topics.
+- Tech: Python, requests, BeautifulSoup, TextBlob.
+
+##### 4. **Job Listings Aggregator**
+- Collects job postings from sites like Indeed and LinkedIn.
+- Analyzes demand for specific skills and roles over time.
+- Tech: Python, Selenium, pandas, matplotlib.
+
+##### 5. **Weather Data Collector**
+- Scrapes daily weather data (temperature, humidity, forecast) from meteorological websites.
+- Builds a local weather history database for trend analysis.
+- Tech: Python, requests, pandas.
+
+##### 6. **YouTube Channel Analytics Scraper**
+- Extracts video stats (views, likes, comments) from YouTube channels.
+- Tracks channel growth and engagement over time.
+- Tech: Python, Selenium, YouTube Data API.
 
 ---
 
@@ -98,7 +140,7 @@ Hi! I'm **[Your Name]**, a passionate data analyst skilled in:
 
 ## 🛠️ Skills & Tools
 
-- **Languages:** Python (pandas, requests, selenium)
+- **Languages:** Python (pandas, requests, selenium, BeautifulSoup)
 - **Visualization:** Power BI
 - **Data:** Excel, CSV, Web scraping
 - **Automation:** End-to-end data pipelines
@@ -110,7 +152,7 @@ Hi! I'm **[Your Name]**, a passionate data analyst skilled in:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/data-analytics-portfolio.git
+   git clone https://github.com/Saptarshi767/data-analytics-portfolio.git
    ```
 2. **Explore Python scripts:**
    - Run scripts in your Python environment (see code comments for usage)
@@ -125,14 +167,18 @@ Hi! I'm **[Your Name]**, a passionate data analyst skilled in:
 
 <p align="center">
   <img src="preview16.jpg" alt="Dashboard Preview" width="60%"/>
+  <img src="Screenshot 2025-07-11 114338.png" alt="Screenshot 1" width="60%"/>
+  <img src="Screenshot 2025-07-11 114225.png" alt="Screenshot 2" width="60%"/>
+  <img src="Screenshot 2025-07-11 114029.png" alt="Screenshot 3" width="60%"/>
 </p>
 
 ---
 
 ## 📬 Contact
 
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn:** [Your LinkedIn](#)
+- **Email:** [saptarshimahapatra007@gmail.com](mailto:saptarshimahapatra007@gmail.com)
+- **LinkedIn:** [Saptarshi Mahapatra](https://www.linkedin.com/in/saptarshi-mahapatra-4a1108268)
+- **GitHub:** [Saptarshi767](https://github.com/Saptarshi767)
 
 ---
 
