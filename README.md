@@ -1,7 +1,4 @@
-<!-- Banner or Cover Image -->
-<p align="center">
-  <img src="background-gradient-lights.jpg" alt="Banner" width="100%"/>
-</p>
+
 
 <h1 align="center">🚀 Data Analytics Portfolio</h1>
 <p align="center">
@@ -166,7 +163,7 @@ Hi! I'm **Saptarshi Mahapatra**, a passionate data analyst skilled in:
 ## ✨ Screenshots
 
 <p align="center">
-  <img src="preview16.jpg" alt="Dashboard Preview" width="60%"/>
+
   <img src="Screenshot 2025-07-11 114338.png" alt="Screenshot 1" width="60%"/>
   <img src="Screenshot 2025-07-11 114225.png" alt="Screenshot 2" width="60%"/>
   <img src="Screenshot 2025-07-11 114029.png" alt="Screenshot 3" width="60%"/>
