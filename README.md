@@ -82,6 +82,27 @@ https://www.amazon.in/dp/B09V4MXBSN,Apple iPhone 13 (128GB) - Midnight,52999,In 
 https://www.amazon.in/dp/B0C9J8PVX5,Samsung Galaxy S23 5G (256GB) - Phantom Black,74999,In stock
 ```
 
+### 🎬 IMDb Top 250 Movies Scraper
+- **Description:** Scrapes the IMDb Top 250 movies list, extracting each movie's title, year, rating, and (optionally) genre.
+- **Tech:** Python, requests, BeautifulSoup, pandas
+- **How it works:**
+  1. Run the script: `python webscrape_imdb_top250.py`
+  2. Results are saved to `imdb_top250_sample.csv`.
+- **Sample Output:**
+
+```csv
+title,year,rating,genre
+The Shawshank Redemption,1994,9.3,N/A
+The Godfather,1972,9.2,N/A
+The Dark Knight,2008,9.0,N/A
+The Godfather: Part II,1974,9.0,N/A
+12 Angry Men,1957,9.0,N/A
+```
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg" alt="IMDb Logo" width="120"/>
+</p>
+
 ---
 
 #### **Additional Web Scraping Projects**
