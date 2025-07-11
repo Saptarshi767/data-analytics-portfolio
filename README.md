@@ -68,6 +68,25 @@ Hi! I'm **Saptarshi Mahapatra**, a passionate data analyst skilled in:
 - **Data cleaning:** All scripts include steps to clean, merge, and save data in analysis-ready formats.
 - **Automation:** Scripts are designed for batch processing, error handling, and can be scheduled for regular data updates.
 
+### 🚩 Featured Web Scraping Project
+
+#### 🛒 Amazon Product Price Tracker
+- **Description:** Monitors prices, titles, and availability of selected Amazon products. Saves results to CSV and prints to console.
+- **Tech:** Python, requests, BeautifulSoup, pandas
+- **How it works:**
+  1. Add your Amazon product URLs to the script.
+  2. Run the script: `python webscrape_amazon_price_tracker.py`
+  3. Results are saved to `amazon_price_sample.csv`.
+- **Sample Output:**
+
+```csv
+url,title,price,availability
+https://www.amazon.in/dp/B09V4MXBSN,Apple iPhone 13 (128GB) - Midnight,52999,In stock
+https://www.amazon.in/dp/B0C9J8PVX5,Samsung Galaxy S23 5G (256GB) - Phantom Black,74999,In stock
+```
+
+---
+
 #### **Additional Web Scraping Projects**
 
 ##### 1. **Amazon Product Price Tracker**
@@ -184,4 +203,71 @@ Hi! I'm **Saptarshi Mahapatra**, a passionate data analyst skilled in:
 
 <p align="center">
   <b>Thank you for visiting my portfolio! ⭐️</b>
-</p> 
+</p>
+
+---
+
+## 🗄️ SQL Projects
+
+### 1. Sales Data Analysis
+- **Description:** Analyze sales, products, and customers to find total sales, top products, sales by region, and monthly trends.
+- **Schema:** customers, products, sales
+- **Example Query:**
+```sql
+SELECT p.product_name, SUM(s.quantity) AS total_quantity
+FROM sales s
+JOIN products p ON s.product_id = p.product_id
+GROUP BY p.product_name
+ORDER BY total_quantity DESC;
+```
+
+### 2. HR Analytics
+- **Description:** Analyze employee data, attrition, and departments for HR insights.
+- **Schema:** employees, departments, attrition
+- **Example Query:**
+```sql
+SELECT d.dept_name, AVG(e.salary) AS avg_salary
+FROM employees e
+JOIN departments d ON e.dept_id = d.dept_id
+GROUP BY d.dept_name;
+```
+
+### 3. E-commerce Customer Segmentation
+- **Description:** Segment customers based on order history and analyze segment performance.
+- **Schema:** customers, orders, segments, customer_segments
+- **Example Query:**
+```sql
+SELECT s.segment_name, AVG(o.order_amount) AS avg_order_value
+FROM orders o
+JOIN customer_segments cs ON o.customer_id = cs.customer_id
+JOIN segments s ON cs.segment_id = s.segment_id
+GROUP BY s.segment_name;
+```
+
+### 4. Market Basket Analysis
+- **Description:** Analyze transaction data to find frequent item pairs and top products.
+- **Schema:** products, transactions, transaction_items
+- **Example Query:**
+```sql
+SELECT p1.product_name AS item1, p2.product_name AS item2, COUNT(*) AS pair_count
+FROM transaction_items ti1
+JOIN transaction_items ti2 ON ti1.transaction_id = ti2.transaction_id AND ti1.product_id < ti2.product_id
+JOIN products p1 ON ti1.product_id = p1.product_id
+JOIN products p2 ON ti2.product_id = p2.product_id
+GROUP BY item1, item2
+ORDER BY pair_count DESC;
+```
+
+### 5. Power BI + SQL Integration Example
+- **Description:** Example schema and queries for integrating SQL data with Power BI dashboards.
+- **Schema:** products, dates, sales
+- **Example Query:**
+```sql
+SELECT d.month, d.year, SUM(s.amount) AS monthly_sales
+FROM sales s
+JOIN dates d ON s.date_id = d.date_id
+GROUP BY d.year, d.month
+ORDER BY d.year, d.month;
+```
+
+--- 
