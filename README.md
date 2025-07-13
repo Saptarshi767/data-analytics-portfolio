@@ -67,7 +67,11 @@ Hi! I'm **Saptarshi Mahapatra**, a passionate data analyst skilled in:
 
 ### 🚩 Featured Web Scraping Project
 
+
 #### 🛒 Amazon Product Price Tracker
+<p align="center">
+  <img src="https://logos-world.net/wp-content/uploads/2020/04/Amazon-Logo.png" alt="Amazon Logo" width="200"/>
+</p>
 - **Description:** Monitors prices, titles, and availability of selected Amazon products. Saves results to CSV and prints to console.
 - **Tech:** Python, requests, BeautifulSoup, pandas
 - **How it works:**
